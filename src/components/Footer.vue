@@ -20,7 +20,8 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        Designed and built by Andrii Chemerys.
+        <span>Designed and built by Andrii Chemerys with Vue.js and Vuetify.</span><br/>
+        <a target="_blank" href="https://icons8.com/icons/set/npm">NPM</a>, <a target="_blank" href="https://icons8.com/icons/set/vue-js">Vue Js</a> and other icons by <a target="_blank" href="https://icons8.com">Icons8</a>
       </v-card-text>
 
       <v-divider></v-divider>
