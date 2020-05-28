@@ -1,16 +1,21 @@
 <template>
   <v-app>
     <v-content>
-      <HelloWorld/>
-      <Timeline/>
+      <Header/>
+      <About/>
+      <Skills/>
       <Projects/>
+      <Timeline/>
+      
       <Footer/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Header from "./components/Header";
+import About from "./components/About";
+import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
@@ -19,7 +24,9 @@ export default {
   name: "App",
 
   components: {
-    HelloWorld,
+    Header,
+    About,
+    Skills,
     Timeline,
     Projects,
     Footer,
