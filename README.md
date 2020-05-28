@@ -14,7 +14,7 @@ link:
 
 **1.** Vuetify basics :heavy_check_mark:
 
-**1.** Using SCSS with Vue basics :heavy_check_mark:
+**1.** Using SCSS with Vue :heavy_check_mark:
 
 > Front-end portfolio design
 

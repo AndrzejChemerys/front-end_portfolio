@@ -40,9 +40,16 @@
         </v-list>
       </v-menu>
     </v-app-bar>
+
+    <section section="main">
+      <div class="main__image"></div>
+      <!-- <img class="main__image" src="" alt="Photo of Andrii Chemerys in front of Lake Como"> -->
+    </section>
+
+
     <v-parallax
       dark
-      src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+      src="@/assets/img/wjs_img2.jpg"
     >
       <v-row
         align="center"
@@ -75,5 +82,24 @@ export default {
 .projects {
   /* max-width: 1500px; */
   padding: 0 4vw;
+}
+
+.main {
+  padding: 20px;
+}
+
+.main__image {
+  margin: 0 auto;
+
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  background-image: url("~@/assets/img/andrii_chemerys_photo_como.jpg");
+  background-size: 200%;
+  background-position: 35% 30%;
+
+  /* z-index: 10; */
+  /* object-fit: cover; */
 }
 </style>

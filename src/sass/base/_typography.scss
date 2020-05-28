@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&display=swap");
+
+
+.timeline {
+    font-family: "Cormorant Garamond", serif;
+    color: $color-primary;
+
+    &__page-name {
+        font-weight: 500;
+        font-size: 24px;
+        color: $color-timeline-line;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    &__profession {
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    &__section {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__time {
+        font-size: 16px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    &__paragraph {}
+
+}
