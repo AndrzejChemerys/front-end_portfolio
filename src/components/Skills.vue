@@ -1,9 +1,9 @@
 <template>
-    <v-parallax dark src="@/assets/img/wjs_img2.jpg" class="skills-parallax-image">
+    <v-parallax dark src="@/assets/img/wjs_img2-dark2.jpg" class="skills-parallax-image">
         <v-row align="center" justify="center" class="skills-section">
             <v-col class="text-center" cols="12">
-                <h1 class="display-1 font-weight-thin mb-4">My skills:</h1>
-                <h4 class="subheading">Build your application today!</h4>
+                <h3 class="skills-section__title">My skills:</h3>
+                <h4 class="skills-section__subtitle">Build your application today!</h4>
                 <v-row>
                     <v-col class="skills">
                         <img class="skills__image" src="@/assets/icons/icons8/icons8-html-5-100.png" alt="">
@@ -139,7 +139,7 @@
                         <p class="skills__text mb-1">Visual Studio Code</p>
                         <div class="skills__bar-wrapper">
                             <div class="skills__progress-bar">
-                                <span class="skills__progress-bar-fill" style="width: 80%;"></span>
+                                <span class="skills__progress-bar-fill" style="width: 70%;"></span>
                             </div>
                         </div>
                     </v-col>
@@ -161,7 +161,7 @@ export default {};
 }
 
 .skills-section {
-  padding: 0 10vw;
+  padding: 0 12vw;
 }
 
 .skills__image {
@@ -183,6 +183,7 @@ export default {};
 .skills__bar-wrapper {
   width: 80px;
   margin: 0 auto;
+  opacity: 0.6;
 }
 
 .skills__progress-bar {
