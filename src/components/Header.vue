@@ -2,7 +2,7 @@
   <div>
     <v-app-bar color="transparent" dense fixed collapse-on-scroll>
       <v-app-bar-nav-icon>
-        x
+        AC
       </v-app-bar-nav-icon>
 
       <v-toolbar-title>Andrii Chemerys - Front-End Portfolio</v-toolbar-title>
@@ -70,8 +70,4 @@ export default {
 };
 </script>
 <style>
-.projects {
-  /* max-width: 1500px; */
-  padding: 0 4vw;
-}
 </style>
