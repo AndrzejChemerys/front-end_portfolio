@@ -79,41 +79,57 @@ p {
     }
 }
 
+// Overwriting Vuetify word-break property:
+
+.v-card__text,
+.v-card__title {
+    word-break: normal;
+    line-height: 1.2rem;
+    /* maybe !important  */
+}
+
+
+
 .timeline {
-    font-family: $body-font-family;
-    color: $color-primary;
-
-    &__page-name {
+    &__title {
         font-weight: 500;
-        font-size: 24px;
-        color: $color-timeline-line;
-    }
-
-    &__name {
-        font-weight: 700;
-        font-size: 30px;
-    }
-
-    &__profession {
-        font-weight: 500;
-        font-size: 24px;
-    }
-
-    &__section {
-        font-weight: 700;
-        font-size: 20px;
-    }
-
-    &__time {
         font-size: 16px;
     }
 
-    &__title {
-        font-weight: 500;
-        font-size: 20px;
+    // font-family: $body-font-family;
+    // color: $color-primary;
 
-    }
+    // &__page-name {
+    //     font-weight: 500;
+    //     font-size: 24px;
+    //     color: $color-timeline-line;
+    // }
 
-    &__paragraph {}
+    // &__name {
+    //     font-weight: 700;
+    //     font-size: 30px;
+    // }
+
+    // &__profession {
+    //     font-weight: 500;
+    //     font-size: 24px;
+    // }
+
+    // &__section {
+    //     font-weight: 700;
+    //     font-size: 20px;
+    // }
+
+    // &__time {
+    //     font-size: 16px;
+    // }
+
+    // &__title {
+    //     font-weight: 500;
+    //     font-size: 20px;
+
+    // }
+
+    // &__paragraph {}
 
 }

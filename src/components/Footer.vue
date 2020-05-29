@@ -26,7 +26,6 @@
 <script>
 export default {
   data: () => ({
-    // icons: ["mdi-github", "mdi-linkedin", "mdi-facebook", "mdi-instagram"],
     icons: [
       {
         name: "mdi-github",

@@ -51,22 +51,11 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Header",
 
   data: () => ({
     drawer: false,
-    // menuItems: ["asd", "asd", "qwe", "qwe"],
-    // menuItems: [
-    //   { itemId: "Home" },
-    //   { itemId: "Projects" },
-    //   { itemId: "Skills" },
-    // ],
   }),
-  // methods: {
-  //   goToPage(page) {
-  //     alert(page);
-  //   },
-  // },
 };
 </script>
 <style>
