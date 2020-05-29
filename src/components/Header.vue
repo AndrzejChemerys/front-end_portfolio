@@ -1,19 +1,21 @@
 <template>
   <div>
     <v-app-bar color="transparent" dense fixed collapse-on-scroll>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon>
+        x
+      </v-app-bar-nav-icon>
 
-      <v-toolbar-title>Page title</v-toolbar-title>
+      <v-toolbar-title>Andrii Chemerys - Front-End Portfolio</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
+      <!-- <v-btn icon>
         <v-icon>mdi-heart</v-icon>
-      </v-btn>
+      </v-btn> -->
 
-      <v-btn icon>
+      <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
-      </v-btn>
+      </v-btn> -->
 
       <v-menu left bottom>
         <template v-slot:activator="{ on }">
@@ -23,8 +25,20 @@
         </template>
 
         <v-list>
-          <v-list-item v-for="n in 5" :key="n" @click="() => {}">
-            <v-list-item-title>Option {{ n }}</v-list-item-title>
+          <!-- <v-list-item v-for="n in menuItems" :key="n.itemId" @click="goToPage(n.itemId)" :href="n.itemId">
+            <v-list-item-title>{{ n.itemId }}</v-list-item-title>
+          </v-list-item> -->
+          <v-list-item href="#about">
+            About Me
+          </v-list-item>
+          <v-list-item href="#projects">
+            Projects
+          </v-list-item>
+          <v-list-item href="#skills">
+            Skills
+          </v-list-item>
+          <v-list-item href="#timeline">
+            Learning Roadmap
           </v-list-item>
         </v-list>
       </v-menu>
@@ -41,7 +55,18 @@ export default {
 
   data: () => ({
     drawer: false,
+    // menuItems: ["asd", "asd", "qwe", "qwe"],
+    // menuItems: [
+    //   { itemId: "Home" },
+    //   { itemId: "Projects" },
+    //   { itemId: "Skills" },
+    // ],
   }),
+  // methods: {
+  //   goToPage(page) {
+  //     alert(page);
+  //   },
+  // },
 };
 </script>
 <style>

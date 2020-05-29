@@ -1,5 +1,5 @@
 <template>
-    <v-parallax dark src="@/assets/img/wjs_img2-dark2.jpg" class="skills-parallax-image">
+    <v-parallax id="skills" dark src="@/assets/img/wjs_img2-dark2.jpg" class="skills-parallax-image">
         <v-row align="center" justify="center" class="skills-section">
             <v-col class="text-center" cols="12">
                 <h3 class="skills-section__title">My skills:</h3>
@@ -155,51 +155,4 @@ export default {};
 </script>
 
 <style>
-.skills-parallax-image {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url("url_of_image"); */
-}
-
-.skills-section {
-  padding: 0 12vw;
-}
-
-.skills__image {
-  width: 60px;
-}
-
-/* .skills__img--vscode {
-  width: 100px;
-} */
-
-/* .skills__img--vuetify {
-  width: 100px;
-} */
-
-.skills__text {
-  margin-bottom: 5px;
-}
-
-.skills__bar-wrapper {
-  width: 80px;
-  margin: 0 auto;
-  opacity: 0.6;
-}
-
-.skills__progress-bar {
-  width: 100%;
-  background-color: #e0e0e0;
-  padding: 2px;
-  border-radius: 2px;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-.skills__progress-bar-fill {
-  display: block;
-  height: 8px;
-  background-color: #737475;
-  border-radius: 2px;
-
-  transition: 500ms ease-in-out;
-}
 </style>

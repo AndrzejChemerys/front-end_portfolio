@@ -3,8 +3,11 @@
 @import "base/base";
 @import "base/typography";
 
+@import "layout/gradient-animation";
+
 @import "pages/about";
 @import "pages/projects";
+@import "pages/skills";
 
 @import "components/timeline";
 @import "components/footer";

@@ -4,200 +4,32 @@
             <v-row>
                 <v-col>
                     <h2 class="projects__title">Projects</h2>
-                    <h3 class="projects__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum aliquid autem facere qui culpa voluptates, aliquam minima totam quod dolore quis similique id soluta, dicta officiis quibusdam quia cum?</h3>
+                    <h3 class="projects__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                        nostrum aliquid autem facere qui culpa voluptates, aliquam minima totam quod dolore quis
+                        similique id soluta</h3>
                 </v-col>
             </v-row>
             <v-row justify="center" class="projects">
                 <v-col cols="4">
-                    <v-card
-                    class="mx-auto"
-                    max-width="400"
-                    >
-                        <v-img
-                        class="white--text align-end"
-                        height="200px"
-                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                        >
-                            <v-card-title>Project 1</v-card-title>
-                        </v-img>
-
-                        <v-card-subtitle class="pb-0">Stack:</v-card-subtitle>
-
-                        <v-card-text class="text--primary">
-                            <div>Whitehaven Beach</div>
-                            <div>Whitsunday Island, Whitsunday Islands</div>
-                        </v-card-text>
-
-                        <v-card-actions>
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                live
-                            </v-btn>
-
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                code
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
+                    <Project1/>
                 </v-col>
 
                 <v-col cols="4">
-                    <v-card
-                    class="mx-auto"
-                    max-width="400"
-                    >
-                        <v-img
-                        class="white--text align-end"
-                        height="200px"
-                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                        >
-                            <v-card-title>Project 1</v-card-title>
-                        </v-img>
-
-                        <v-card-subtitle class="pb-0">Stack:</v-card-subtitle>
-
-                        <v-card-text class="text--primary">
-                            <div>Whitehaven Beach</div>
-                            <div>Whitsunday Island, Whitsunday Islands</div>
-                        </v-card-text>
-
-                        <v-card-actions>
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                live
-                            </v-btn>
-                            
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                code
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
+                    <Project2/>
                 </v-col>
 
                 <v-col cols="4">
-                    <v-card
-                    class="mx-auto"
-                    max-width="400"
-                    >
-                        <v-img
-                        class="white--text align-end"
-                        height="200px"
-                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                        >
-                            <v-card-title>Project 1</v-card-title>
-                        </v-img>
-
-                        <v-card-subtitle class="pb-0">Stack:</v-card-subtitle>
-
-                        <v-card-text class="text--primary">
-                            <div>Whitehaven Beach</div>
-                            <div>Whitsunday Island, Whitsunday Islands</div>
-                        </v-card-text>
-
-                        <v-card-actions>
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                live
-                            </v-btn>
-                            
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                code
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
+                    <Project3/>
                 </v-col>
             </v-row>
 
-                        <v-row justify="center" class="projects">
+            <v-row justify="center" class="projects">
                 <v-col cols="4">
-                    <v-card
-                    class="mx-auto"
-                    max-width="400"
-                    >
-                        <v-img
-                        class="white--text align-end"
-                        height="200px"
-                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                        >
-                            <v-card-title>Project 1</v-card-title>
-                        </v-img>
-
-                        <v-card-subtitle class="pb-0">Stack:</v-card-subtitle>
-
-                        <v-card-text class="text--primary">
-                            <div>Whitehaven Beach</div>
-                            <div>Whitsunday Island, Whitsunday Islands</div>
-                        </v-card-text>
-
-                        <v-card-actions>
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                live
-                            </v-btn>
-
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                code
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
+                    <Project4/>
                 </v-col>
-                
+
                 <v-col cols="4">
-                    <v-card
-                    class="mx-auto"
-                    max-width="400"
-                    >
-                        <v-img
-                        class="white--text align-end"
-                        height="200px"
-                        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-                        >
-                            <v-card-title>Project 1</v-card-title>
-                        </v-img>
-
-                        <v-card-subtitle class="pb-0">Stack:</v-card-subtitle>
-
-                        <v-card-text class="text--primary">
-                            <div>Whitehaven Beach</div>
-                            <div>Whitsunday Island, Whitsunday Islands</div>
-                        </v-card-text>
-
-                        <v-card-actions>
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                live
-                            </v-btn>
-                            
-                            <v-btn
-                                color="orange"
-                                text
-                            >
-                                code
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
+                    <Project5/>
                 </v-col>
             </v-row>
         </v-container>
@@ -205,7 +37,23 @@
 </template>
 
 <script>
-export default {};
+import Project1 from "./projects/Project1";
+import Project2 from "./projects/Project2";
+import Project3 from "./projects/Project3";
+import Project4 from "./projects/Project4";
+import Project5 from "./projects/Project5";
+
+export default {
+  name: "Projects",
+
+  components: {
+    Project1,
+    Project2,
+    Project3,
+    Project4,
+    Project5,
+  },
+};
 </script>
 
 <style>

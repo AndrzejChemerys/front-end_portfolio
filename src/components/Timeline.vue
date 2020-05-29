@@ -2,10 +2,9 @@
     <div>
         <v-row>
             <v-col>
-                <section id="about" class="about">
-                <img class="about__img" src="img/andrii_chemerys_photo.jpg" alt="">
-                
-                <div class="about__timeline timeline">
+                <section id="timeline" class="timeline-section">
+               
+                <div class="timeline-section__timeline timeline">
                     <div class="timeline__body">
                         <h2 class="timeline__page-name timeline__text-to-align">Portfolio</h2>
                         <h1 class="timeline__name timeline__text-to-align">Andrii Chemerys</h1>
