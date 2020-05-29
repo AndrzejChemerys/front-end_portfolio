@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar color="indigo lighten-4" dense dark>
+    <v-app-bar color="transparent" dense fixed collapse-on-scroll>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
       <v-toolbar-title>Page title</v-toolbar-title>

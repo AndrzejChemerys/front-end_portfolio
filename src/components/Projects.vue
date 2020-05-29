@@ -1,7 +1,13 @@
 <template>
     <div>
-        <v-container fluid class="projects" justify="center">
-            <v-row justify="center" class="projects teal lighten-3">
+        <v-container id="projects" fluid class="projects" justify="center">
+            <v-row>
+                <v-col>
+                    <h2 class="projects__title">Projects</h2>
+                    <h3 class="projects__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum aliquid autem facere qui culpa voluptates, aliquam minima totam quod dolore quis similique id soluta, dicta officiis quibusdam quia cum?</h3>
+                </v-col>
+            </v-row>
+            <v-row justify="center" class="projects">
                 <v-col cols="4">
                     <v-card
                     class="mx-auto"
@@ -117,7 +123,7 @@
                 </v-col>
             </v-row>
 
-                        <v-row justify="center" class="projects teal lighten-3">
+                        <v-row justify="center" class="projects">
                 <v-col cols="4">
                     <v-card
                     class="mx-auto"

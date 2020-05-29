@@ -3,8 +3,9 @@
     <v-content>
       <Header/>
       <About/>
-      <Skills/>
       <Projects/>
+      <Skills/>
+      
       <Timeline/>
       
       <Footer/>

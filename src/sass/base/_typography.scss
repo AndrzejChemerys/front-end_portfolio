@@ -1,5 +1,73 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.about {
+    &__title {
+        font-family: $body-font-family;
+        font-weight: 500;
+        font-size: 44px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        margin: 30px;
+        font-family: $body-font-family;
+        font-weight: 500;
+        font-size: 28px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.projects {
+    &__title {
+        text-align: center;
+        font-weight: 500;
+        margin: 12px 0 24px 0;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-weight: 500;
+        padding: 0 25vw;
+        font-size: 16px;
+    }
+}
+
+.skills-section {
+    &__title {
+        font-family: $body-font-family;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    &__subtitle {
+        font-family: $body-font-family;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+
+
+h1,
+h2,
+p {
+    font-family: $body-font-family;
+}
+
+// Overwriting Vuetify fonts:
+
+.v-application {
+    font-family: $body-font-family, sans-serif !important;
+
+    .title {
+        // To pin point specific classes of some components
+        font-family: $body-font-family, sans-serif !important;
+    }
+}
 
 .timeline {
     font-family: $body-font-family;
@@ -38,51 +106,4 @@
 
     &__paragraph {}
 
-}
-
-.about__title {
-    font-family: $body-font-family;
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-}
-
-.about__subtitle {
-    margin: 30px;
-    font-family: $body-font-family;
-    font-weight: 500;
-    font-size: 28px;
-    text-align: center;
-    color: white;
-}
-
-.skills-section__title {
-    font-family: $body-font-family;
-    font-weight: 500;
-    font-size: 24px;
-}
-
-.skills-section__subtitle {
-    font-family: $body-font-family;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-h1,
-h2,
-p {
-    font-family: $body-font-family;
-}
-
-// Overwriting Vuetify fonts:
-
-.v-application {
-    font-family: $body-font-family, sans-serif !important;
-
-    .title {
-        // To pin point specific classes of some components
-        font-family: $body-font-family, sans-serif !important;
-    }
 }
