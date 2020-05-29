@@ -8,10 +8,10 @@
         // margin-top: 5vh;
         // margin: 0 auto;
         transform: translate(-50%, 150%);
-        transition: ease-in-out;
+        transition: ease-in-out 0.2s;
 
         &:hover {
-            background-color: rgba(189, 216, 215, 0.521);
+            background-color: rgba(236, 195, 247, 0.493);
         }
     }
 
@@ -26,6 +26,14 @@
         background-image: url("~@/assets/img/andrii_chemerys_photo_como.jpg");
         background-size: 200%;
         background-position: 35% 30%;
+        transition: ease-in-out .5s;
+
+        &:hover {
+            border: 2px solid rgba(236, 195, 247, 0.493);
+            background-size: 220%;
+            background-position: 36% 29%;
+
+        }
 
         /* z-index: 10; */
         /* object-fit: cover; */
