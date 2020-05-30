@@ -7,26 +7,26 @@
                     <h3 class="projects__subtitle"></h3>
                 </v-col>
             </v-row>
-            <v-row justify="center" class="projects">
-                <v-col cols="4">
+            <v-row justify="center" class="projects__row">
+                <v-col cols="12" md="" lg="4">
                     <Project1/>
                 </v-col>
 
-                <v-col cols="4">
+                <v-col cols="12" md="" lg="4">
                     <Project2/>
                 </v-col>
 
-                <v-col cols="4">
+                <v-col cols="12" md="" lg="4">
                     <Project3/>
                 </v-col>
             </v-row>
 
-            <v-row justify="center" class="projects">
-                <v-col cols="4">
+            <v-row justify="center" class="projects__row">
+                <v-col cols="12" md="" lg="4">
                     <Project4/>
                 </v-col>
 
-                <v-col cols="4">
+                <v-col cols="12" md="" lg="4">
                     <Project5/>
                 </v-col>
             </v-row>

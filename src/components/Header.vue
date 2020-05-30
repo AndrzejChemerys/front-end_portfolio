@@ -9,14 +9,6 @@
 
       <v-spacer></v-spacer>
 
-      <!-- <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn> -->
-
-      <!-- <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn> -->
-
       <v-menu left bottom>
         <template v-slot:activator="{ on }">
           <v-btn icon v-on="on">
@@ -25,20 +17,20 @@
         </template>
 
         <v-list>
-          <!-- <v-list-item v-for="n in menuItems" :key="n.itemId" @click="goToPage(n.itemId)" :href="n.itemId">
-            <v-list-item-title>{{ n.itemId }}</v-list-item-title>
-          </v-list-item> -->
           <v-list-item href="#about">
-            About Me
+            Hej!
           </v-list-item>
           <v-list-item href="#projects">
-            Projects
+            Projekty
           </v-list-item>
           <v-list-item href="#skills">
-            Skills
+            Umiejętności
+          </v-list-item>
+          <v-list-item href="#aboutme">
+            O mnie
           </v-list-item>
           <v-list-item href="#timeline">
-            Learning Roadmap
+            Ścieżka rozwoju
           </v-list-item>
         </v-list>
       </v-menu>
