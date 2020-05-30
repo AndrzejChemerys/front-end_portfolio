@@ -8,7 +8,7 @@
       <!-- <img class="main__image" src="" alt="Photo of Andrii Chemerys in front of Lake Como"> -->
       <h1 class="about__title">Andrii Chemerys</h1>
       <h2 class="about__subtitle">Junior Front-End Developer</h2>
-      <v-btn outlined color="white" class="about__button" absolute href="#projects">Projects</v-btn>
+      <v-btn outlined color="white" class="about__button" absolute href="#projects">Projekty</v-btn>
 
       
       <!-- </section> -->

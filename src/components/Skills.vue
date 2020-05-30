@@ -2,7 +2,7 @@
     <v-parallax id="skills" dark src="@/assets/img/wjs_img2-dark2.jpg" class="skills-parallax-image">
         <v-row align="center" justify="center" class="skills-section">
             <v-col class="text-center" cols="12">
-                <h3 class="skills-section__title">Moje umiejętności, technologie i narzędzia:</h3>
+                <h3 class="skills-section__title">Umiejętności, technologie i narzędzia:</h3>
                 <h4 class="skills-section__subtitle"></h4>
                 <v-row>
                     <v-col class="skills">

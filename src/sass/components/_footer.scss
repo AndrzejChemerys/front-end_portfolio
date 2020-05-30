@@ -1,5 +1,11 @@
 .footer {
     width: 100%;
+    padding: 20px 0;
+
+    &__signature,
+    &__rights {
+        line-height: 30px;
+    }
 
     &__link {
         text-decoration: none;
@@ -8,5 +14,9 @@
     &__icons-text {
         // color: white;
         // text-decoration: none;
+    }
+
+    &__divider {
+        margin: 10px 0;
     }
 }
