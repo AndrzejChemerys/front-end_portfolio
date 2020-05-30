@@ -4,9 +4,7 @@
             <v-row>
                 <v-col>
                     <h2 class="projects__title">Projekty</h2>
-                    <h3 class="projects__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                        nostrum aliquid autem facere qui culpa voluptates, aliquam minima totam quod dolore quis
-                        similique id soluta</h3>
+                    <h3 class="projects__subtitle"></h3>
                 </v-col>
             </v-row>
             <v-row justify="center" class="projects">

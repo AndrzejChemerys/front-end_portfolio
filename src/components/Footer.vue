@@ -10,18 +10,22 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0 text footer__icons-text">
-        <span class="footer__signature">Designed and built with &#9825; by Andrii Chemerys, using Vue.js and Vuetify.</span><br />
-        <a class="footer__icons-text white--text" target="_blank" href="https://icons8.com/icons/set/npm">NPM</a>, <a
-          class="footer__icons-text white--text" target="_blank" href="https://icons8.com/icons/set/vue-js">Vue Js</a>
-        and other icons by <a class="footer__icons-text white--text" target="_blank"
-          href="https://icons8.com">Icons8</a><br/>
+        <span class="footer__signature">andriichemerys@gmail.com</span><br />
+        <span class="footer__signature">Designed and built with &#9825; by Andrii Chemerys, using Vue.js and
+          Vuetify.</span><br />
+        <span class="footer__signature">
+          <a class="footer__icons-text white--text" target="_blank" href="https://icons8.com/icons/set/npm">NPM</a>, <a
+            class="footer__icons-text white--text" target="_blank" href="https://icons8.com/icons/set/vue-js">Vue Js</a>
+          and other icons by <a class="footer__icons-text white--text" target="_blank"
+            href="https://icons8.com">Icons8</a>
+        </span><br/>
       </v-card-text>
 
       <v-divider class="footer__divider"></v-divider>
 
       <v-card-text class="white--text">
-        <span class="footer__rights">Wszelkie prawa zastrzeżone / All rigths reserved</span>  <br/>
-        <span>&copy; {{ new Date().getFullYear() }} </span> 
+        <span class="footer__rights">Wszelkie prawa zastrzeżone / All rigths reserved</span> <br />
+        <span>&copy; {{ new Date().getFullYear() }} </span>
       </v-card-text>
     </v-card>
   </v-footer>

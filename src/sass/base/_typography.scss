@@ -60,8 +60,6 @@
     }
 }
 
-
-
 h1,
 h2,
 p {
@@ -88,13 +86,28 @@ p {
     /* maybe !important  */
 }
 
+.aboutme {
+    &__title {
+        text-align: center;
+        font-weight: 500;
+        margin: 12px 0 24px 0;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-weight: 500;
+        padding: 0 25vw;
+        font-size: 16px;
+    }
+}
+
 .timeline-section {
     &__title {
         font-family: $body-font-family;
         font-weight: 500;
         font-size: 24px;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 10px;
     }
 }
 
@@ -103,41 +116,4 @@ p {
         font-weight: 500;
         font-size: 16px;
     }
-
-    // font-family: $body-font-family;
-    // color: $color-primary;
-
-    // &__page-name {
-    //     font-weight: 500;
-    //     font-size: 24px;
-    //     color: $color-timeline-line;
-    // }
-
-    // &__name {
-    //     font-weight: 700;
-    //     font-size: 30px;
-    // }
-
-    // &__profession {
-    //     font-weight: 500;
-    //     font-size: 24px;
-    // }
-
-    // &__section {
-    //     font-weight: 700;
-    //     font-size: 20px;
-    // }
-
-    // &__time {
-    //     font-size: 16px;
-    // }
-
-    // &__title {
-    //     font-weight: 500;
-    //     font-size: 20px;
-
-    // }
-
-    // &__paragraph {}
-
 }
