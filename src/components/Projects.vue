@@ -3,7 +3,7 @@
         <v-container id="projects" fluid class="projects" justify="center">
             <v-row>
                 <v-col>
-                    <h2 class="projects__title">Projects</h2>
+                    <h2 class="projects__title">Projekty</h2>
                     <h3 class="projects__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                         nostrum aliquid autem facere qui culpa voluptates, aliquam minima totam quod dolore quis
                         similique id soluta</h3>

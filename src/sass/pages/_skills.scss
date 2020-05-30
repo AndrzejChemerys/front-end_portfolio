@@ -15,15 +15,19 @@
         &:hover {
             transform: scale(1.2)
         }
+
+
+    }
+
+    &__img--vuetify {
+        height: 60px;
     }
 
     /* &__img--vscode {
         width: 100px;
       } */
 
-    /* &__img--vuetify {
-        width: 100px;
-      } */
+
 
     &__text {
         margin-bottom: 5px;
