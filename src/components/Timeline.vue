@@ -21,8 +21,8 @@
                             <span class="timeline__date"> 04.2020-obecnie</span>
                         </template>
                         <v-card class="elevation-2 timeline__card">
-                            <v-card-title class="timeline__title">
-                                <a href="https://github.com/AndriiChemerys/vue" target="_blank" class="timeline__link">
+                            <v-card-title class="timeline__title " >
+                                <a href="https://github.com/AndriiChemerys/vue" target="_blank" class="timeline__link grey--text text--darken-3">
                                     Kursy internetowe Vue.js na Vue Mastery.
                                 </a>
                             </v-card-title>
@@ -44,7 +44,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="timeline__title">
                                 <a href="https://github.com/AndriiChemerys/warsawjs-workshop-44-2" target="_blank"
-                                    class="timeline__link">
+                                    class="timeline__link grey--text text--darken-3">
                                     Workshop #44 “Seria: Trening Architekta — Wzorce projektowe“
                                     od WarsawJS.
                                 </a>
@@ -69,7 +69,7 @@
                         </template>
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="timeline__title">
-                                <a href="https://github.com/AndriiChemerys/vue" target="_blank" class="timeline__link">
+                                <a href="https://github.com/AndriiChemerys/vue" target="_blank" class="timeline__link grey--text text--darken-3">
                                     Kurs internetowy “Build Web Apps with Vue JS 2 & Firebase“ na Udemy.
                                 </a>
                             </v-card-title>
@@ -91,7 +91,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class=" timeline__title">
                                 <a href="https://github.com/AndriiChemerys/practice_/tree/master/6_js_100_algorithms_challenge" target="_blank"
-                                    class="timeline__link">
+                                    class="timeline__link grey--text text--darken-3">
                                     Kurs internetowy “100 Algorithms Challenge” na Udemy.
                                 </a>
                             </v-card-title>
@@ -112,7 +112,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class=" timeline__title">
                                 <a href="https://github.com/AndriiChemerys/warsawjs-workshop-41-4" target="_blank"
-                                    class="timeline__link">
+                                    class="timeline__link grey--text text--darken-3">
                                     Workshop #41 “JavaScript dla początkujących “
                                     od WarsawJS.
                                 </a>
@@ -134,7 +134,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="timeline__title">
                                 <a href="https://github.com/AndriiChemerys/alx_js" target="_blank"
-                                    class="timeline__link">
+                                    class="timeline__link grey--text text--darken-3">
                                     Bootcamp “Programista JavaScript “ w ALX w
                                     Warszawie.
                                 </a>
@@ -159,7 +159,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
                                 <a href="https://github.com/AndriiChemerys/daftacademy-frontend_levelup-spring2019-clock"
-                                    target="_blank" class="timeline__link">
+                                    target="_blank" class="timeline__link grey--text text--darken-3">
                                     Kurs od DaftAcademy “Front End Level Up” w
                                     Warszawie.
                                 </a>
@@ -184,7 +184,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
                                 <a href="https://github.com/AndriiChemerys/natours_project" target="_blank"
-                                    class="timeline__link">
+                                    class="timeline__link grey--text text--darken-3">
                                     Kurs internetowy “Advanced CSS and Sass: Flexbox, Grid, Animations and More!” na Udemy.
                                 </a>
                             </v-card-title>
@@ -209,7 +209,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
                                 <a href="https://github.com/AndriiChemerys/web-samurai_front-end_courses"
-                                    target="_blank" class="timeline__link">
+                                    target="_blank" class="timeline__link grey--text text--darken-3">
                                     Kurs internetowy “Programowanie w JavaScript” na Udemy.
                                 </a>
                             </v-card-title>
@@ -233,7 +233,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
                                 <a href="https://github.com/AndriiChemerys/daftacademy_frontend4begginers"
-                                    target="_blank" class="timeline__link">
+                                    target="_blank" class="timeline__link grey--text text--darken-3">
                                     Kurs od DaftAcademy “Front End 4 Beginners” w Warszawie.
                                 </a>
                             </v-card-title>
@@ -258,7 +258,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
                                 <a href="https://github.com/AndriiChemerys/web-samurai_front-end_courses"
-                                    target="_blank" class="timeline__link">
+                                    target="_blank" class="timeline__link grey--text text--darken-3">
                                     Kurs internetowy “Front-End zaawansowany w 15 dni” na Udemy.
                                 </a>
                             </v-card-title>
@@ -282,7 +282,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
                                 <a href="https://github.com/AndriiChemerys/treehouse_front-end_course" target="_blank"
-                                    class="timeline__link">
+                                    class="timeline__link grey--text text--darken-3">
                                     Kurs internetowy “Front End Web Development Track” na Treehouse.
                                 </a>
                             </v-card-title>
@@ -306,7 +306,7 @@
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
                                 <a href="https://andriichemerys.github.io/architecture_portfolio/" target="_blank"
-                                    class="timeline__link">
+                                    class="timeline__link grey--text text--darken-3">
                                     Doświadczenie zawodowe: Asystent Architekta / Architekt
                                 </a>
                             </v-card-title>
@@ -330,7 +330,7 @@
                         </template>
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
-                                <a href="http://www.wseiz.pl/pl/" target="_blank" class="timeline__link">
+                                <a href="http://www.wseiz.pl/pl/" target="_blank" class="timeline__link grey--text text--darken-3">
                                     Wykształcenie: Architektura i Urbanistyka (I st.) / Architektura (II st.)
                                 </a>
                             </v-card-title>
@@ -354,7 +354,7 @@
                         </template>
                         <v-card class="elevation-2 timeline__card">
                             <v-card-title class="  timeline__title">
-                                <a href="http://www.ifkepnung.if.ua/" target="_blank" class="timeline__link">
+                                <a href="http://www.ifkepnung.if.ua/" target="_blank" class="timeline__link grey--text text--darken-3">
                                     Wykształcenie: Informatyka.
                                 </a>
                             </v-card-title>

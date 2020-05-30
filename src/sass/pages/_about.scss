@@ -46,8 +46,10 @@
 @media only screen and (max-height: $breakpoint-xs) {
     .about {
         &__image {
-            width: 40vw;
-            height: 40vw;
+            // max-width: 200px;
+            // max-height: 200px;
+            width: 30vh;
+            height: 30vh;
         }
     }
 }

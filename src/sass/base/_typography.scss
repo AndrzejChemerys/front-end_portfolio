@@ -31,6 +31,10 @@
     }
 }
 
+//###########################
+//About section media queries
+//###########################
+
 @media only screen and (max-width: $breakpoint-sm),
 (max-height: $breakpoint-sm-height) {
     .about {
@@ -58,6 +62,8 @@
     }
 }
 
+//##############################
+
 .projects {
     &__title {
         text-align: center;
@@ -73,6 +79,20 @@
     }
 }
 
+//###############################
+// Projects section media queries
+//###############################
+@media only screen and (max-width: $breakpoint-xs),
+(max-height: $breakpoint-xs) {
+    .projects {
+        &__title {
+            font-size: 20px;
+        }
+    }
+}
+
+//###############################
+
 .skills-section {
     &__title {
         font-family: $body-font-family;
@@ -86,6 +106,48 @@
         font-size: 18px;
     }
 }
+
+//#############################
+// Skills section media queries
+//#############################
+
+@media only screen and (max-width: $breakpoint-lg) {
+    .skills-section {
+        &__title {
+            font-size: 20px;
+            margin: 20px 0 40px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: $breakpoint-sm) {
+    .skills-section {
+        &__title {
+            font-size: 20px;
+            margin: 0 0 40px 0;
+        }
+    }
+
+    .skills__text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: $breakpoint-xs),
+(max-height: $breakpoint-xs) {
+    .skills-section {
+        &__title {
+            font-size: 20px;
+            margin: 0 0 40px 0;
+        }
+    }
+
+    .skills__text {
+        display: none;
+    }
+}
+
+//##############################
 
 h1,
 h2,
@@ -113,6 +175,8 @@ p {
     /* maybe !important  */
 }
 
+//##############################
+
 .aboutme {
     &__title {
         text-align: center;
@@ -128,6 +192,10 @@ p {
     }
 }
 
+//##############################
+//About Me section media queries
+//##############################
+
 @media only screen and (max-width: $breakpoint-sm),
 (max-height: $breakpoint-sm-height) {
     .aboutme {
@@ -137,6 +205,17 @@ p {
         }
     }
 }
+
+@media only screen and (max-width: $breakpoint-xs),
+(max-height: $breakpoint-xs) {
+    .aboutme {
+        &__title {
+            font-size: 20px;
+        }
+    }
+}
+
+//##############################
 
 .timeline-section {
     &__title {
@@ -153,4 +232,33 @@ p {
         font-weight: 500;
         font-size: 16px;
     }
+
+    &__link {
+        color: white;
+    }
 }
+
+//##############################
+//Timeline section media queries
+//##############################
+
+@media only screen and (max-width: $breakpoint-xs),
+(max-height: $breakpoint-xs) {
+    .timeline-section {
+        &__title {
+            font-size: 20px;
+        }
+    }
+
+    .timeline {
+        &__link {
+            font-size: 12px;
+        }
+
+        &__desc {
+            font-size: 10px;
+        }
+    }
+}
+
+//##############################

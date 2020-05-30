@@ -1,7 +1,4 @@
 .skills-parallax-image {
-
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                         rgba(0, 0, 0, 0.5)), url("url_of_image"); */
     // .skills-parallax-image {
     //     min-height: 100vh;
     // }
@@ -19,19 +16,15 @@
         &:hover {
             transform: scale(1.2)
         }
-
-
     }
 
     &__img--vuetify {
-        height: 60px;
+        width: 53px;
     }
 
     /* &__img--vscode {
         width: 100px;
       } */
-
-
 
     &__text {
         margin-bottom: 5px;
@@ -62,3 +55,54 @@
 
 
 }
+
+//###########################
+// Skills icons media queries
+//###########################
+
+@media only screen and (max-width: $breakpoint-lg) {
+    .skills-section {
+        padding: 0 10vw;
+    }
+
+    .skills {
+        &__image {
+            width: 40px;
+        }
+
+        &__bar-wrapper {
+            width: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: $breakpoint-sm) {
+    .skills-section {
+        padding: 0;
+    }
+
+    .skills {
+        &__image {
+            width: 25px;
+        }
+
+        &__bar-wrapper {
+            width: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: $breakpoint-xs),
+(max-height: $breakpoint-xs) {
+    .skills {
+        &__image {
+            width: 6vw;
+        }
+
+        &__bar-wrapper {
+            width: 6vw;
+        }
+    }
+}
+
+//##########################

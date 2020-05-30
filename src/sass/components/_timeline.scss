@@ -2,8 +2,9 @@
     margin: 5vh 0;
     padding: 0 10vw;
 
-    &__title {}
-
+    &__link {
+        text-decoration: none;
+    }
 }
 
 // Overwriting Vuetify default properties
@@ -21,4 +22,13 @@
 
 .v-timeline-item {
     padding-bottom: 0;
+}
+
+@media only screen and (max-width: $breakpoint-sm),
+(max-height: $breakpoint-sm-height) {
+    .timeline {
+        &__card {
+            margin: 1vw 0;
+        }
+    }
 }
