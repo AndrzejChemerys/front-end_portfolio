@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-row id="aboutme">
+        <v-row id="timeline">
             <v-col>
                 <h2 class="aboutme__title">O mnie:</h2>
                 <h3 class="aboutme__subtitle">Jestem początkującym programistą Front-End, dążącym do ciągłego rozwoju i poznawania nowych technologii. Charakteryzuje mnie pozytywne nastawienie i otwartość umysłu, praca w zespole i dynamiczne tempo pracy nie sprawia mi trudności. Obecnie skupiam się na doskonaleniu swoich umiejętności w technologiach Vue.js, HTML, CSS i JavaScript.</h3>
@@ -10,7 +10,7 @@
         <v-row>
             <v-col>
                 <h3 class="timeline-section__title" id="timeline">Moja ścieżka rozwoju w IT:</h3>
-                <v-timeline class="timeline">
+                <v-timeline class="timeline" :dense="$vuetify.breakpoint.smAndDown">
                     <v-timeline-item large class="timeline__item">
                         <template v-slot:icon>
                             <v-avatar>

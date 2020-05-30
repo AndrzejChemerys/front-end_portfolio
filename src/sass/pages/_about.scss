@@ -15,6 +15,8 @@
         margin: 5vh auto;
         border: 2px solid rgb(204, 204, 204);
         border-radius: 50%;
+        // width: 18vw;
+        // height: 18vw;
         width: 300px;
         height: 300px;
         background-image: url("~@/assets/img/andrii_chemerys_photo_como.jpg");
@@ -27,6 +29,25 @@
             background-size: 205%;
             background-position: 35% 30%;
 
+        }
+    }
+}
+
+@media only screen and (max-width: $breakpoint-sm),
+(max-height: $breakpoint-sm-height) {
+    .about {
+        &__image {
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+@media only screen and (max-height: $breakpoint-xs) {
+    .about {
+        &__image {
+            width: 40vw;
+            height: 40vw;
         }
     }
 }

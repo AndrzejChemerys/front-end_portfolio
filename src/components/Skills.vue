@@ -4,8 +4,8 @@
             <v-col class="text-center" cols="12">
                 <h3 class="skills-section__title">Umiejętności, technologie i narzędzia:</h3>
                 <h4 class="skills-section__subtitle"></h4>
-                <v-row>
-                    <v-col class="skills">
+                <v-row justify="center">
+                    <v-col class="skills" cols="6" sm="4" md="3" lg="">
                         <img class="skills__image" src="@/assets/icons/icons8/icons8-html-5-100.png" alt="">
                         <p class="skills__text mb-1">HTML5</p>
                         <div class="skills__bar-wrapper">
@@ -14,7 +14,7 @@
                             </div>
                         </div>
                     </v-col>
-                    <v-col>
+                    <v-col cols="6" sm="4" md="3" lg="">
                         <img class="skills__image" src="@/assets/icons/icons8/icons8-css3-100.png" alt="">
                         <p class="skills__text mb-1">CSS3</p>
                         <div class="skills__bar-wrapper">
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                     </v-col>
-                    <v-col>
+                    <v-col cols="6" sm="4" md="3" lg="">
                         <img class="skills__image" src="@/assets/icons/icons8/icons8-javascript-100.png" alt="">
                         <p class="skills__text mb-1">JavaScript</p>
                         <div class="skills__bar-wrapper">
@@ -32,7 +32,7 @@
                             </div>
                         </div>
                     </v-col>
-                    <v-col>
+                    <v-col cols="6" sm="4" md="3" lg="">
                         <img class="skills__image" src="@/assets/icons/icons8/icons8-sass-100.png" alt="">
                         <p class="skills__text mb-1">SASS</p>
                         <div class="skills__bar-wrapper">
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                     </v-col>
-                    <v-col>
+                    <v-col cols="6" sm="4" md="3" lg="">
                         <img class="skills__image" src="@/assets/icons/icons8/icons8-git-100.png" alt="">
                         <p class="skills__text mb-1">Git</p>
                         <div class="skills__bar-wrapper">
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                     </v-col>
-                    <v-col>
+                    <v-col cols="6" sm="4" md="3" lg="">
                         <img class="skills__image" src="@/assets/icons/icons8/icons8-npm-100.png" alt="">
                         <p class="skills__text mb-1">npm</p>
                         <div class="skills__bar-wrapper">
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </v-col>
-                    <v-col>
+                    <v-col cols="6" sm="4" md="3" lg="">
                         <img class="skills__image" src="@/assets/icons/icons8/icons8-webpack-100.png" alt="">
                         <p class="skills__text mb-1">webpack</p>
                         <div class="skills__bar-wrapper">

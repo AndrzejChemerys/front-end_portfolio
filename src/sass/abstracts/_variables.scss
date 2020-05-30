@@ -1,3 +1,5 @@
+// Colors Variables
+
 $color-primary: #222d31;
 $color-secondary: #bbace6;
 $color-border: #ededf3;
@@ -6,5 +8,13 @@ $color-background-secondary: #d8cff0;
 $color-timeline-line: #d8cff0;
 $color-timeline-bg: #ffffff;
 
+// Fonts variables
+
 $body-font-family: 'Montserrat',
 sans-serif;
+
+// Media Queries Variables
+
+$breakpoint-sm: 960px;
+$breakpoint-sm-height: 720px;
+$breakpoint-xs: 600px;

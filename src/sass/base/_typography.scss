@@ -31,6 +31,33 @@
     }
 }
 
+@media only screen and (max-width: $breakpoint-sm),
+(max-height: $breakpoint-sm-height) {
+    .about {
+        &__title {
+            font-size: 32px;
+        }
+
+        &__subtitle {
+            margin: 15px;
+            font-size: 24px;
+        }
+    }
+}
+
+@media only screen and (max-height: $breakpoint-xs) {
+    .about {
+        &__title {
+            font-size: 24px;
+        }
+
+        &__subtitle {
+            margin: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
 .projects {
     &__title {
         text-align: center;
@@ -98,6 +125,16 @@ p {
         font-weight: 500;
         padding: 0 25vw 20px 25vw;
         font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: $breakpoint-sm),
+(max-height: $breakpoint-sm-height) {
+    .aboutme {
+        &__subtitle {
+            padding: 0 5vw 20px 5vw;
+            font-size: 14px;
+        }
     }
 }
 
