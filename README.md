@@ -16,6 +16,8 @@ link:
 
 **1.** Using SCSS with Vue :heavy_check_mark:
 
+**1.** Using CSS Media Queries :heavy_check_mark:
+
 > Front-end portfolio design
 
 # portfolio
