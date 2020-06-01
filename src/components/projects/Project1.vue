@@ -1,17 +1,17 @@
 <template>
-    <v-card class="mx-auto" max-width="400">
-        <v-img class="white--text align-end" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
-            <v-card-title>Project 1</v-card-title>
+    <v-card class="mx-auto" max-width="400px" height="422"> 
+        <v-img class="white--text align-end" height="219px" src="@/assets/img/projects/arch-port.jpg">
         </v-img>
-
-        <v-card-subtitle class="pb-0">Stack:</v-card-subtitle>
+        
 
         <v-card-text class="text--primary">
-            <div>Whitehaven Beach</div>
-            <div>Whitsunday Island, Whitsunday Islands</div>
+            <v-card-title class="px-4">Architecture Portfolio</v-card-title>
+            <div class="projects__desc projects__desc--1">Architecture Portfolio</div>
+            <div class="projects__desc projects__desc--2">HTML / SCSS</div>
+            <div class="projects__desc projects__desc--2">BEM / CSS Grid / Flexbox</div>
         </v-card-text>
 
-        <v-card-actions>
+        <v-card-actions class="pt-0">
             <v-btn color="orange" text>
                 live
             </v-btn>

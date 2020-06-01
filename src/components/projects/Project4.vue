@@ -1,17 +1,17 @@
 <template>
     <v-card class="mx-auto" max-width="400">
-        <v-img class="white--text align-end" height="200px" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
-            <v-card-title>Project 1</v-card-title>
+        <v-img class="white--text align-end" height="219px" src="@/assets/img/projects/natours.jpg"> 
         </v-img>
 
-        <v-card-subtitle class="pb-0">Stack:</v-card-subtitle>
+        <!-- <v-card-subtitle class="pb-0">Stack:</v-card-subtitle> -->
 
         <v-card-text class="text--primary">
-            <div>Whitehaven Beach</div>
-            <div>Whitsunday Island, Whitsunday Islands</div>
+            <v-card-title class="px-4">Natours project</v-card-title>
+            <div class="projects__desc projects__desc--1">Projekt został utworzony w trakcie kursu "Advanced CSS and Sass: Flexbox, Grid, Animations and More"</div>
+            <div class="projects__desc projects__desc--2">HTML / SCSS</div>
         </v-card-text>
 
-        <v-card-actions>
+        <v-card-actions class="pt-0">
             <v-btn color="orange" text>
                 live
             </v-btn>
