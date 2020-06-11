@@ -30,6 +30,40 @@
                     <Project5/>
                 </v-col>
             </v-row>
+
+            <v-row>
+                <v-col>
+                    <h2 class="projects__title">Mini-projekty</h2>
+                    <h3 class="projects__subtitle"></h3>
+                </v-col>
+            </v-row>
+<!-- 
+            <v-row justify="center" class="projects__row">
+                <v-col cols="12" md="" lg="2">
+                    <Project4/>
+                </v-col>
+
+                <v-col cols="12" md="" lg="2">
+                    <Project1/>
+                </v-col>
+
+                <v-col cols="12" md="" lg="2">
+                    <Project5/>
+                </v-col>
+
+                <v-col cols="12" md="" lg="2">
+                    <Project1/>
+                </v-col>
+
+                <v-col cols="12" md="" lg="2">
+                    <Project2/>
+                </v-col>
+
+                <v-col cols="12" md="" lg="2">
+                    <Project3/>
+                </v-col>
+            </v-row> -->
+
         </v-container>
     </div>
 </template>

@@ -2,7 +2,9 @@
   <div>
     <v-app-bar color="transparent" dense fixed collapse-on-scroll>
       <v-app-bar-nav-icon>
-        AC
+        <a href="#about">
+          <img src="@/assets/img/logo_andrii_chemerys.png" class="page-logo" alt="">
+        </a>
       </v-app-bar-nav-icon>
 
       <v-toolbar-title>Andrii Chemerys - Front-End Portfolio</v-toolbar-title>
