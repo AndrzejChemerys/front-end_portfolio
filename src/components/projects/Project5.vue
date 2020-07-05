@@ -13,7 +13,7 @@
         </v-card-text>
 
         <v-card-actions class="pt-0">
-            <v-btn color="orange" text href="https://github.com/AndriiChemerys/front-end_portfolio" target="_blank">
+            <v-btn color="orange" text href="https://andriichemerys.github.io/front-end_portfolio/dist/index.html" target="_blank">
                 live
             </v-btn>
 
