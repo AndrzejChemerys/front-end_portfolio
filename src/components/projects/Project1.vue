@@ -1,14 +1,14 @@
 <template>
-    <v-card class="mx-auto" max-width="400px" height="422"> 
+    <v-card class="mx-auto" max-width="400px"> 
         <v-img class="white--text align-end" height="219px" src="@/assets/img/projects/arch-port.jpg">
         </v-img>
         
 
         <v-card-text class="text--primary">
-            <v-card-title class="px-4">Architecture Portfolio</v-card-title>
-            <div class="projects__desc projects__desc--1">Architecture Portfolio</div>
+            <v-card-title class="px-4">Portfolio Architektoniczne</v-card-title>
+            <div class="projects__desc projects__desc--1">Własny design oraz implementacja projektu</div>
             <div class="projects__desc projects__desc--2">HTML / SCSS</div>
-            <div class="projects__desc projects__desc--2">BEM / CSS Grid / Flexbox</div>
+            <div class="projects__desc projects__desc--2">BEM / CSS Grid / Flexbox / RWD</div>
         </v-card-text>
 
         <v-card-actions class="pt-0">
