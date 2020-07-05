@@ -12,11 +12,11 @@
         </v-card-text>
 
         <v-card-actions class="pt-0">
-            <v-btn color="orange" text>
+            <v-btn color="orange" text href="https://andriichemerys.github.io/architecture_portfolio/" target="_blank">
                 live
             </v-btn>
 
-            <v-btn color="orange" text>
+            <v-btn color="orange" text href="https://github.com/AndriiChemerys/architecture_portfolio" target="_blank">
                 code
             </v-btn>
         </v-card-actions>

@@ -8,15 +8,15 @@
         <v-card-text class="text--primary">
             <v-card-title class="px-4">The Budget App</v-card-title>
             <div class="projects__desc projects__desc--1">Projekt został utworzony w trakcie kursu "The Complete JavaScript Course 2019: Build Real Projects!"</div>
-            <div class="projects__desc projects__desc--2">HTML / CSS / JavaScript</div>
+            <div class="projects__desc projects__desc--2">HTML / CSS / JavaScript / OOP / Design patterns</div>
         </v-card-text>
 
         <v-card-actions class="pt-0">
-            <v-btn color="orange" text>
+            <v-btn color="orange" text href="https://andriichemerys.github.io/budgety_project/" target="_blank">
                 live
             </v-btn>
 
-            <v-btn color="orange" text>
+            <v-btn color="orange" text href="https://github.com/AndriiChemerys/budgety_project" target="_blank">
                 code
             </v-btn>
         </v-card-actions>
