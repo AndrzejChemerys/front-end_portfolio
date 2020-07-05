@@ -4,7 +4,7 @@
 
 ---
 
-link:
+link: https://andriichemerys.github.io/front-end_portfolio/dist/index.html
 
 ---
 
@@ -22,30 +22,4 @@ link:
 
 # portfolio
 
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Designed and built with <3 by Andrii Chemerys
